@@ -1,3 +1,8 @@
+# Blog App (MERN Stack)
+
+_To view an App download ZIP run ```yarn install``` then follow instruction below..._ 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
