@@ -12,8 +12,11 @@
     "react-router-dom": "5.0.0"
   },
   "scripts": {
-    "start": "npm-run-all -p -l start:*",
+    "start": "run-p start:*",
     "start:server": "cd server && node server.js",
-    "start:client": "cd client && yarn start"
+    "start:client": "cd client && yarn start",
+    "postinstall": "run-p install:*",
+    "install:server": "cd server && yarn install",
+    "install:client": "cd client && yarn install"
   }
 }
