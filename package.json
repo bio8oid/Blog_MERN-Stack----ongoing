@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "run-p start:*",
-    "start:server": "cd server && node server.js",
+    "start:server": "cd server && yarn start",
     "start:client": "cd client && yarn start",
     "postinstall": "run-p install:*",
     "install:server": "cd server && yarn install",
