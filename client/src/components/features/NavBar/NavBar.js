@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const links = [{ path: '/Home', title: 'Home' }, { path: '/About', title: 'About' }]
+// const links = [{ path: '/Home', title: 'Home' }, { path: '/About', title: 'About' }]
 
 class NavBar extends React.Component {
 
